@@ -1,0 +1,11 @@
+plugins {
+	id 'java-conventions' // Pulled from buildSrc
+	id 'adaptor-dependencies' // Pulled from buildSrc
+}
+
+group = 'com.example'
+version = '0.0.1-SNAPSHOT'
+
+test {
+	useJUnitPlatform()
+}

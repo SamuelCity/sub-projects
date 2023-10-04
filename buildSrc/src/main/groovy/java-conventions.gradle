@@ -1,0 +1,13 @@
+// Common dependencies/config for Java
+
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+}
+
+java {
+    sourceCompatibility = '17'
+}
